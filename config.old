@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Roboto Mono for Powerline:pixelsize=15:antialias=true:autohint=true";
+static char *font = "SF Mono:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -122,8 +122,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 13;
-static unsigned int defaultrcs = 0;
+static unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 15;
 
 /*
  * Default shape of cursor
